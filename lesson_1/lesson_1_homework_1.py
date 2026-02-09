@@ -34,9 +34,10 @@ class User:
     role = "guest"
     active = True
 
-print(setattr(User, 'role', 'admin'))
+setattr(User, 'role', 'admin')
 print(hasattr(User, 'active'))
-print(setattr(User, 'email', 'test1@example.com'))
+setattr(User, 'email', 'test1@example.com')
 print(User.role)
+print(User.email)
 
 print("All attr: ", User.__dict__)
