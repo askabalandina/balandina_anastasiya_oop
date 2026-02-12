@@ -1,6 +1,6 @@
 # 1.
 class Dog:
-    species = "canis"
+    species = "canis3"
     legs = 4
     color = "grey"
     hairy = "long-haired"
